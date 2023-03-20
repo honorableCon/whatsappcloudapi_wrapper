@@ -867,4 +867,4 @@ class WhatsappCloud {
         return messageParser({ requestBody, currentWABA_ID: this.WABA_ID });
     }
 }
-module.exports = WhatsappCloud;
+module.exports.default = WhatsappCloud;
